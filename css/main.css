@@ -1,0 +1,53 @@
+
+section .container {
+  display: flex;
+  color: white;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  position: relative;
+  min-height: 100vh;
+
+}
+
+section img {
+  width: 50%;
+  max-width: 100%;
+  min-width: 320px;
+}
+
+.info {
+  margin-right: 15px;
+}
+section .container .content h1 {
+  font-size: 34px;
+  font-family: "Shadows Into Light", cursive;
+  color: gold;
+}
+section .container .content p {
+  font-size: 28px;
+}
+
+ p {
+  padding: 10px;
+  font-size: 20px;
+  color: gold;
+}
+
+ a {
+  border-radius: 10px;
+  display: inline-block;
+  text-decoration: none;
+  padding: 12px;
+  font-size: 14px;
+  color: black;
+  font-weight: bold;
+  width: 165px;
+  background-color: gold;
+  transition: 0.3s;
+}
+ a:hover {
+  background: white;
+  color: gold;
+}
