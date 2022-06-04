@@ -34,7 +34,7 @@ section img {
   margin-right: 15px;
 }
 section .container .content h1 {
-  font-size: 34px;
+  font-size: 28px;
   font-family: "Shadows Into Light", cursive;
   color: gold;
 }
@@ -43,8 +43,8 @@ section .container .content p {
 }
 
  p {
-  padding: 10px;
-  font-size: 20px;
+  padding: 7px;
+  font-size: 16px;
   color: gold;
 }
 
