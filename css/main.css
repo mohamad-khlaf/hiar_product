@@ -32,6 +32,7 @@ section img {
 
 .info {
   margin-right: 15px;
+  position: relative;
 }
 section .container .content h1 {
   font-size: 28px;
@@ -59,6 +60,12 @@ section .container .content p {
   width: 165px;
   background-color: gold;
   transition: 0.3s;
+  cursor: pointer;
+  position: absolute;
+  z-index: 4545454545454545454545;
+  left: 50%;
+  transform: translateX(-50%);
+
 }
  a:hover {
   background: white;
